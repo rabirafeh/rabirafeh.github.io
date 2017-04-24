@@ -1,0 +1,32 @@
+body {
+    background-color: #797890;
+}
+h1 {
+	color: #2f2189;
+	font-family: georgia;
+	font-size: 40px;
+}
+h2 {
+	color: #2f2189;
+}
+li { 
+	color: #2f2189;
+	font-family: helvetica;
+	font-size: 16px;
+	list-style-type: none;
+ }
+ h3 {
+ 	color: #1b5081;
+ 	font-family: georgia;
+ 	font-size: 20px;
+ }
+ p {
+ 	font-family: helvetica;
+ 	font-size: 16px;
+ }
+ a {
+ 	color: #3c6798;
+ }
+ img {
+ 	padding-top: 20px;
+ }
