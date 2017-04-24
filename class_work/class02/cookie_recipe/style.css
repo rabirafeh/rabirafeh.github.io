@@ -1,0 +1,13 @@
+body {
+    background-color: #FFE;
+    border-style: solid;
+	border-width: 5px;
+	text-indent: 15px;
+}
+a {
+    color: #900;
+}
+img {
+	display: block;
+	margin: auto;
+}
