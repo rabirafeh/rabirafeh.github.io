@@ -1,0 +1,50 @@
+/*.section1 {
+	background: gray;
+	width: 400px;
+	height: 400px;
+}
+
+h1 {
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}*/
+
+.wrapper {
+	background: gray;
+	width: 1000px;
+/*	height: 300px;
+*/	padding: 30px;
+	text-align: center;
+	color: white;
+	margin: 10px;
+}
+
+.section1 {
+	background: black;
+	padding: .5px;
+}
+
+.section2 {
+	color: purple;
+	background: salmon;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.section3 {
+	color: green;
+	background: salmon;
+	padding: 5px;
+	margin-top: 10px;
+
+}
+
+.section4 {
+	color: yellow;
+	background: salmon;
+	padding: 5px;
+	margin-top: 10px;
+
+}
