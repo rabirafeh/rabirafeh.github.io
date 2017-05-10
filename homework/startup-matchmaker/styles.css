@@ -1,0 +1,163 @@
+/* FONT FAMILY HELPERS :)
+font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+/*CAROLYN, HOW DO YOU I CREATE VERTICAL LINES BETWEEN MY ARTICLE ELEMENTS?*/
+body {
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Merriweather', serif;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.wrapper {
+	width: 1080px;
+}
+header {
+	background-color: black;
+	margin: 0 auto;
+  	vertical-align:top;
+  	border-bottom: 3px solid yellow;
+}
+h1 {
+	color: yellow;
+	font-style: bold;
+	font-family: "Merriweather", serif;
+	padding: 15px 20px;
+  	float: left;
+}
+.nav {
+	text-decoration: none;
+	color: white;
+	font-family: "Oswald";
+	float: right;
+	margin-top: 44px;
+}
+.header-nav-link {
+	text-decoration: none;
+	color: white;
+	margin-right: 10px;
+	font-size: 20px;
+}
+.border {
+	height: 5px;
+	background: yellow;
+}
+.tagline {
+	font-family: "Merriweather";
+	background: #C6C6C6;
+	text-align: center;
+	font-style: italic;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 25px;
+/*	margin: -8px;
+*/}
+.taste-edit {
+	color: grey;
+	text-decoration: line-through;
+}
+.are-edit {
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+
+.image {
+	background-image: url(../img/coworking.jpg);
+	position: relative; 
+   	width: 100%; 
+   	margin-bottom: -10px;
+}
+/*.image {
+	float:right;
+}*/
+/*.main span {
+	float:right;
+}*/
+.overlay {
+	float: right;
+	width: 33%;
+	background: rgba(243, 242, 247, 0.81);
+	padding: 30px;
+	margin: 28px;
+	font-size: 18px;
+	box-shadow: 1px 1px grey;
+}
+.main h2 {
+	font-size: 30px;
+	font-family: "Oswald";
+	margin-top: -2px;
+    margin-bottom: -2px;
+}
+.main-button {
+	border-radius: 10px;
+	background: yellow;
+/*	padding: 17px 90px;
+*/	font-family: "Oswald";
+    text-align: center;
+    /*font-size: 19px;
+    font-style: bold;*/
+    font-size: 24px;
+    margin: 3px;
+    width: 330px;
+    height: 60px;
+    font-style: bold;
+}
+.sections {
+	background-color: #f2f2f2;
+	padding: 30px;
+  	margin: 0 auto;
+  	margin-bottom: -10px;
+  	display: table-cell;
+  	display: inline-block;
+/*  	width: 100%;
+*/}
+.sections h2 {
+	font-family: "Merriweather", serif; 
+	font-style: bold;
+	font-size: 28px;
+}
+article {
+	font-size: 19px;
+}
+.article1 {
+	float: left;
+	width: 33%;
+/*	margin-right: 2px;
+*/}
+.article2 {
+	display: inline-block;
+	width: 33%;
+/*	margin-left: 2px;
+*/}
+.article3 {
+	float: right;
+	width: 33%;
+	/*margin: 2px;*/
+}
+.sections-button {
+	border-radius: 10px;
+	background: #C6C6C6;
+/*	padding: 19px 70px;
+*/	font-family: "Oswald";
+    text-align: center;
+    font-size: 22px;
+    margin: 3px;
+    width: 300px;
+    height: 50px;
+    font-style: bold;
+}
+.footer {
+	background-color: black;
+	padding: 20px;
+  	margin: 0px;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.clearfix:after {
+   content: ".";
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}

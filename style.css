@@ -1,3 +1,29 @@
 body {
-    background: red;
+    background: #2978A0;
+    color: white;
+    font-family: cursive;
 }
+title{
+	font-style: italic;
+}
+img{
+	padding-top: 100px; 
+	width: 300px;
+	height:	200px;
+	-webkit-transform: rotate(90deg);
+	display: block;
+}
+.section1{
+	text-align: left;
+}
+.section2{
+	text-align: right;
+}
+.section3{
+	text-align: left;
+}
+.section4{
+	text-align: right;
+	font-style: italic;
+}
+
