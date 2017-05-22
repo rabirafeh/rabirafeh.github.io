@@ -1,0 +1,38 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	
+	/*color: white;*/
+}
+.wrapper{ 
+	margin: 5px;
+}
+h1 {
+	text-align: center;
+}
+img {
+	background-image: url(images/4seasonspic4.jpg);
+	width: 100%;
+}
+input {
+	border: 1px; 
+	border-style: solid;
+	padding: 8px;
+	margin: 5px;
+	font-size: 15px;
+	font-style: bold;
+	width: 40px;
+	border-color: black;
+}
+.temperature {
+	font-style: italic;
+}
+.button {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: red;
+	color: black;
+	display: block;
+	text-align: center;
+	width: 50px;
+

@@ -1,0 +1,85 @@
+body {
+	font-family: 'Raleway', sans-serif;	
+}
+.wrapper{ 
+	margin: 5px;
+	background: url(../images/4seasonspic4.jpg) center center no-repeat;
+	width: 100%;
+}
+.text-display{
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+h1 {
+	color: white;
+}
+
+h3 {
+	text-decoration: underline;
+	padding-bottom: 2px;
+	color: white;
+}
+h4 {
+	text-align: right;
+	color: white;
+}
+h6 {
+	text-align: right;
+	color: white;
+}
+input {
+	border: 1px; 
+	border-style: solid;
+	padding: 8px;
+	margin: 5px;
+	font-size: 15px;
+	font-style: bold;
+	width: 40px;
+	border-color: black;
+}
+.temperature {
+	font-style: italic;
+}
+/*.button {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: black;
+	color: black;
+	text-align: center;
+	width: 50px;
+	padding: 3px;
+	color: white;
+}*/
+.reset {
+	color: red;
+	text-align: right;
+	float: right;
+	margin-right: 60px;
+	background-color: white;
+	box-shadow: 0 0 5px rgba(0,0,0,.75);
+	margin-top: -15px;
+}
+.section1 {
+	color: red;
+	font-size: 20px;
+	font-style: bold;
+}
+.section2 {
+	color: red;
+	font-size: 20px;
+	font-style: bold;
+}
+.section3 {
+	text-align: right;
+	font-size: 15px;
+	color: white;
+	font-style: bold;
+}
+
+/*carolyn wants me to fix the span style background color for F and C
+DO IT*/
+
+
