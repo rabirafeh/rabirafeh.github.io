@@ -14,18 +14,17 @@ $(document).ready(function() {
 		$('.temperature-result2').html(temperatureF); 
 	});
 // CAROLYN, IS THIS THE WAY TO DO CSS IN JQUERY?
-	$('temperature-result1').css({'background-color': 'white','color': 'black'});
+	$('.temperature-result1').css({'background-color': 'white','color': 'black'});
 
-	$('temperature-result2').css({'background-color': 'white', 'color': 'black'});
+	$('.temperature-result2').css({'background-color': 'white', 'color': 'black'});
 
 // CAROLYN! WHAT AM I DOING WRONG WITH THE RESET BUTTON?
-	$('#reset').click(function(){
-  		$('#celcius').val('');
-  		$('#temperature1').html('');
+	$('.reset').click(function(){
+	  	$('.temperature1').val('');
+	  	$('.temperature-result1').html('');
+	  	$('.temperature2').val('');
+	  	$('.temperature-result2').html('');
 	});
 
-	$('#reset').click(function(){
-  		$('#fahrenheit').val('');
-  		$('#temperature2').html('');
-  	});
 });
+
