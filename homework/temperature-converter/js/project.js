@@ -28,3 +28,4 @@ $(document).ready(function() {
 
 });
 
+// toFixed(2) -- shorten down number to 2 decimal points

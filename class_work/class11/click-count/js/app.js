@@ -9,4 +9,25 @@
 
 $(document).ready(function () {
 
+	$('#clickme').click(function(){
+		// console.log('click is working');
+
+		var currentClickCount = parseInt($('#click-num').html());
+		var newClickCount = currentClickCount + 1;
+
+		console.log(currentClickCount, newClickCount); 
+
+		$('#click-num').html(newClickCount);
+
+		if (newClickCount == 5) {
+			$('body').css('background-color', 'red');
+		} else if (newClickCount == 10) {
+			$('body').css('background-color', 'green');
+		} else if (newClickCount == 15) {
+			$('body').css('background-color', 'blue');
+		} else {
+			$('body').css('background-color', 'black');
+		}
+	})
+
 })
