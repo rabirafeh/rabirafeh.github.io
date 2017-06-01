@@ -8,20 +8,43 @@ $(document).ready(function () {
 // Requirements: Create a separate function, called appendItem, that accepts one argument, item, that is called when #clickme is clicked and appends the <li> to #list
 
 
-function appendItem(item){
-	var newItem = '<li>' + item + '</li>'
-		$('#list').append(newItem);
-		$('#item').val('').focus();
-	}
-	$('#clickme').click(function(){
-		var output = $('#item').val();
-		appendItem(output);
-});
+$('#clickme').click(function(){
+	var output = $('#item').val();
+	
 	if ($('#item').val().length > 0){
-		console.log('The value is empty', true);
+		alert('The value is empty');
 	} else {
-		console.log('The value is not empty', false);
-	}
+		appendItem(output);
+};
+
+function appendItem(item){
+		$('#list').append('<li>' + item + '</li>');
+		$('#item').val('');
+		$('#item').focus();
+		$('li').click(function(){
+			$(this).remove();
+		})
+};
+
+
+
+// function appendItem(item){
+// 	var newItem = '<li>' + item + '</li>'
+// 		$('#list').append(newItem);
+// 		$('#item').val('').focus();
+// 	};
+
+// 	$('#clickme').click(function(){
+// 		var output = $('#item').val();
+// 		appendItem(output);
+// });
+// 	if ($('#item').val().length > 0){
+// 		alert('The value is empty');
+// 	} else {
+// 		alert('The value is not empty');
+// 	}
+
+// 	$(newItem).remove();
 	
 // CAROLYN, I TRIED BUT I KNOW THIS IS WRONG :(
 
@@ -37,4 +60,4 @@ function appendItem(item){
 	// 1C. This anonymous function should then clear the text inside of #item
 
 	// 2. Write the appendItem function here
-})
+});
