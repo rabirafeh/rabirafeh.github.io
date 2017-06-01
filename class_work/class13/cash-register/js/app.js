@@ -24,11 +24,11 @@ $(document).ready(function () {
 		calculate(newEntry);
 
 		function calculate(newEntry){
-			total = '$' + total + newEntry;
-			$('#total').html(total);
+			total = total + newEntry;
+			$('#total').html('$' + total);
 		}
 		
-		$('#newEntry').empty();
+		$('#newEntry').val('');
 		console.log(newEntry);
 	})	
 	
