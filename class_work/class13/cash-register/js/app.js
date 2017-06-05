@@ -19,7 +19,7 @@ $(document).ready(function () {
 	$('#entry').submit(function(event){
 		event.preventDefault();
 		var newEntry = parseFloat($('#newEntry').val());
-		$('#entries').append('<tr><td>' + newEntry + '</td></tr>');
+		$('#entries').append('<tr>ju<td></td><td>' + newEntry + '</td></tr>');
 		
 		calculate(newEntry);
 
