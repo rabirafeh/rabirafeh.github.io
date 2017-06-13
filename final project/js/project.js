@@ -9,25 +9,53 @@ function goBack() {
 
 // 1. FRUIT
 
+ 
+
 function populateBoard(){
-	var currentWord = words[position]; 
+	var currentWord = words[position];
 	var randomPosition = Math.floor((Math.random() * 6) + 1);
 	console.log(randomPosition);
+	
 	$(".word").html(currentWord.english);
-
-	$('.img-' + randomPosition).attr('src', currentWord.image).addClass("answer");
-	$('.img-' + randomPosition).attr('src', currentWord.image).removeClass("wrong");
+	
+	$(".answer-image").addClass("wrong");
+	$('.img-1').attr('src', getRandomImage());
+	$('.img-2').attr('src', getRandomImage());
+	$('.img-3').attr('src', getRandomImage());
+	$('.img-4').attr('src', getRandomImage());
+	$('.img-5').attr('src', getRandomImage());
+	$('.img-6').attr('src', getRandomImage());
+	$('.img-' + randomPosition).attr('src', currentWord.image).addClass("answer").removeClass("wrong");
 }
 
 
 $(".game1").on("click", ".answer", function(){
+	var answer = document.getElementById("../images/Pikachu/hiPikachu.png");
 	alert("you win");
+	position += 1;
+	populateBoard();
 });
 
 $(".game1").on("click", ".wrong", function(){
+	var wrong = document.getElementById("../images/Pikachu/sadPikachu.png");
 	alert("you lose");
+	position += 1;
 });
 
+
+function getRandomImage() {
+  var randomPosition = Math.floor((Math.random() * 29) + 1);
+
+  var imgUrl = "../images/Game/random/" + randomPosition + ".png";
+
+  return imgUrl
+
+}
+
+console.log(getRandomImage());
+
+numRight = 0;
+numWrong = 0;
 	 
 var position = 0;
 var words = [
@@ -39,7 +67,7 @@ var words = [
 	{
 		english: 'Banana',
 		french: 'Une Banane',
-		image: '../images/Game/fruits/banane.png'
+		image: '../images/Game/fruits/banana.png'
 	}, 
 	{
 		english: 'Cherries',

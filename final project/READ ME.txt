@@ -29,6 +29,8 @@ GAME PAGE
 1) Map a way to the scoreboard page 
 2) is it possible to add an image while the page refreshes/transitions to show a spinning puzzle piece 
 3) have a scoreboard table on the top left corner 
+4) do right and wrong scorekeeper
+5) need to change the 'find' word to a different language
 
 
 -----
