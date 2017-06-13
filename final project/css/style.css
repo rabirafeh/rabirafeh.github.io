@@ -35,12 +35,6 @@ body {
 }
 
 /*Body*/
-.path {
-/*	padding: 100px;
-*/	text-align: center;
-	display: block;
-	float: left;
-}
 
 /*Logo Icon*/
 .gallery img[alt*="logo"] {
@@ -62,20 +56,20 @@ body {
 }
 
 /*Welcome Page Image Details*/
+.path {
+	display: inline-block;
+}
+
 .path img[alt*="circular-arrows"] {
 	height: 20%;
 	width: 20%;
 	float: left;
-/*	margin-right: 30px;
-	padding-top: 25px;*/
 }
 
 .path img[alt*="selection-icon"] {
 	height: 20%;
 	width: 20%;
 	float: right;
-/*	margin-right: 30px;
-	padding-top: 25px;*/
 }
 
 .background {
