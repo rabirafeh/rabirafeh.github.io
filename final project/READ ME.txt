@@ -28,6 +28,7 @@ GAME PAGE
 
 1) Map a way to the scoreboard page 
 2) is it possible to add an image while the page refreshes/transitions to show a spinning puzzle piece 
+3) have a scoreboard table on the top left corner 
 
 
 -----
@@ -47,6 +48,7 @@ MISC
 4) have the page take up the full browser
 5) how to add a favicon?
 6) with a class that has the same name on different pages, can i call attention to one page on css? 
+7) fix reset css file under each html file 
 
 -----
 

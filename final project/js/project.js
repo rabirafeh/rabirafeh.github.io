@@ -4,13 +4,33 @@ function goBack() {
     window.history.back();
 }
 
-	var apple =["Apple", "Pomme"]
 
 // FRUIT AND VEGETABLES
 
 // 1. FRUIT
+
+function populateBoard(){
+	var currentWord = words[position]; 
+	var randomPosition = Math.floor((Math.random() * 6) + 1);
+	console.log(randomPosition);
+	$(".word").html(currentWord.english);
+
+	$('.img-' + randomPosition).attr('src', currentWord.image).addClass("answer");
+	$('.img-' + randomPosition).attr('src', currentWord.image).removeClass("wrong");
+}
+
+
+$(".game1").on("click", ".answer", function(){
+	alert("you win");
+});
+
+$(".game1").on("click", ".wrong", function(){
+	alert("you lose");
+});
+
 	 
-[
+var position = 0;
+var words = [
 	{
 		english: 'Apple',
 		french: 'Une Pomme',
@@ -319,6 +339,11 @@ function goBack() {
 		english: 'Boat',
 		french: 'Bateau',
 		image: '../images/Game/travel/transparent/sailing.png'
-	}, 
+	}
+  ]
+
+  
+populateBoard();	
+
 
 });
