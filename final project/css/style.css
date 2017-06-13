@@ -1,0 +1,261 @@
+body {
+	font-family: 'Patrick Hand SC', cursive;
+	line-height: 1.5;
+	margin: 0 auto;
+	width: 1080px;
+	height: 500px;
+	box-sizing: border-box;
+}
+/*~~~WELCOME PAGE~~~*/
+
+/*Heading*/
+.full-pagewrap {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+#page-header {
+	background: white;
+	overflow: hidden;
+	border: 2px solid black;
+	padding: 5px;
+}
+
+#page-header h1 {
+	color: black;
+	font-size: 50px;
+	float: left;
+	margin: 10px 0 0 0;
+}
+
+#page-header a {
+	color: purple;
+	float: right;
+	display: block;
+}
+
+/*Body*/
+.path {
+	float: left;
+	padding: 100px;
+	text-align: center;
+}
+
+/*Logo Icon*/
+.gallery img[alt*="logo"] {
+	height: 70px;
+	width: 60px;
+	float: left;
+	margin-right: 10px;
+	padding-top: 15px;
+	padding-left: 5px;
+}
+
+/*About Icon*/
+.gallery img[alt*="puzzleQuestionMark"] {
+	height: 70px;
+	width: 50px;
+	float: right;
+	margin-right: 30px;
+	padding-top: 25px;
+}
+
+/*Welcome Page Image Details*/
+.background {
+	background: url(../images/jigsawPuzzle.jpeg) no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	padding: 20px;
+	height: 500px;
+}
+
+/*Section*/
+.background a {
+	color: purple;
+	font-style: bold;
+	font-size: 40px;
+}
+
+.dropbtn {
+    background-color: lightblue;
+    color: black;
+    padding: 6px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: yellow}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: yellow;
+}
+
+/*About Tooltip*/
+.abouttooltip {
+	position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+   	width: 120px;
+    top: 100%;
+    left: 50%; 
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+/*~~~SECTION BODY~~~*/
+
+.groups {
+	background: white;
+	overflow: hidden;
+	padding: 40px 30px;
+	background: white;
+	overflow: hidden;
+	border: 2px solid black;
+}
+
+/*~~~PLAYER PAGE~~~*/
+
+.group {
+	float: left;
+	width: 279px;
+	padding: 20px;
+}
+
+/*Images*/
+.countries img[alt*="french"] {
+	height: 100px;
+	width: 80px;
+	float: left;
+	margin-left: 30px;
+	padding-top: 25px;
+}
+
+.countries img[alt*="english"] {
+	height: 100px;
+	width: 80px;
+	float: center;
+	margin-left: 60px;
+	padding-top: 25px;
+}
+
+.countries img[alt*="arabic"] {
+	height: 100px;
+	width: 80px;
+	float: right;
+	margin-right: 30px;
+	padding-top: 25px;
+}
+
+/*~~~SCOREBOARD PAGE~~~*/
+
+.scoreboard table, th, td {
+   border-bottom: 1px solid black;
+}
+
+.scoreboard table {
+    width: 80px;
+}
+
+.scoreboard th {
+    height: 50px;
+}
+
+.scoreboard-table img[alt*="french"] {
+	height: 20px;
+	width: 20px;
+	float: left;
+}
+
+.scoreboard-table img[alt*="english"] {
+	height: 20px;
+	width: 20px;
+	float: left;
+}
+
+.scoreboard-table img[alt*="arabic"] {
+	height: 20px;
+	width: 20px;
+	float: left;
+}
+
+/*~~~GAME PAGE~~~*/
+
+.game1 table, th, td {
+	border-bottom: 0px white;
+}
+
+/*~~~PRIVACY PAGE~~~*/
+
+.gallery img[alt*="pikachu-gif"] {
+	background: url("../images/Pikachu/blushing-pikachu.gif") no-repeat;
+	overflow: hidden;
+	width: 400px;
+	padding: 20px;
+	height: 500px;
+}
+
+/*~~~FOOTER~~~*/
+
+
+/*Footer*/
+footer {
+	text-align: center;
+	background: black;
+	color: white;
+	padding: 5px 20px;
+}
+
+.nav {
+	margin: 0 auto;
+}
+
+.nav a:hover {
+	color: yellow;
+}
+
+.nav p {
+	font-size: 10px;
+}
+
+/*MEDIA SIZING*/ 
+@media (min-width: 700px) {
+	header h1, header p{
+		float: none; 
+	}
+	section p {
+		float: none;
+	}
+}
