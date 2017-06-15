@@ -18,7 +18,6 @@ body {
 	width: 95%;
 	margin-top: 10px;
 }
-
 .page-wrap {
 	background-color: white;
 	/*margin: 0 auto;*/
@@ -27,20 +26,17 @@ body {
 	width: 90%;
 	margin: 30px 60px;
 }
-
 .page-header {
 	overflow: hidden;
 	padding: 20px;
 	border-bottom: 2px solid green;
 }
-
 .page-header h1 {
 	color: blue;
 	font-size: 50px;
 	float: left;
 	margin: 10px 0 0 0;
 }
-
 .page-header a {
 	color: blue;
 	float: right;
@@ -56,7 +52,6 @@ body {
 	padding-top: 15px;
 	padding-right: 10px;
 }
-
 #question-mark {
 	font-size: 30px;
 	color: blue;
@@ -64,17 +59,14 @@ body {
 	padding-top: 2px;
 	padding-right: 10px;
 }
-
 #random-mix {
 	font-size: 70px;
 	color: blue;
 }
-
 #gamepad {
 	font-size: 70px;
 	color: blue;
 }
-
 #dancingPikachu {
 	width: 60px;
 	height: 60px;
@@ -85,15 +77,28 @@ body {
 
 .path {
 	padding: 30px;
+	overflow: block;
 }
+.path1 {
+	float: left;
+}
+.path2 {
+	float: right;
+}
+
 
 /*ABOUT PAGE */
 
 /*TERMS OF USE PAGE*/ 
+.terms-video video{
+	width: 75%;
+	position: center;
+	padding-left: 130px; 
+	padding-top: 30px;
+}
 
 /*PRIVACY POLICY*/ 
 .privacy img[alt*="pikachu-gif"] {
-/*	background: url("../images/Pikachu/blushing-pikachu.gif") no-repeat;*/
 	overflow: hidden;
 	width: 200px;
 	padding: 20px;
@@ -150,7 +155,6 @@ body {
 	margin-left: 30px;
 	padding-top: 25px;
 }
-
 .games-group img[alt*="colors"] {
 	height: 100px;
 	width: 100px;
@@ -158,7 +162,6 @@ body {
 	margin-left: 60px;
 	padding-top: 25px;
 }
-
 .games-group img[alt*="food"] {
 	height: 100px;
 	width: 150px;
@@ -166,7 +169,6 @@ body {
 	margin-right: 30px;
 	padding-top: 25px;
 }
-
 .games-group img[alt*="travel"] {
 	height: 100px;
 	width: 130px;
@@ -183,6 +185,44 @@ body {
 }
 
 /*SCOREKEEPER PAGE*/
+.score-title {
+	overflow: hidden;
+}
+.score-title h2 {
+	display: block;
+	float: left;
+}
+.score-title i{
+	float: left;
+}
+#trophy {
+	font-size: 30px;
+	color: green;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+.score-table p{
+	text-align: center;
+}
+.outer {
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+}
+.inner1 {
+  width: 150px; 
+  height: 75px;
+  border: 1px solid white;
+}
+.inner {
+  width: 150px; 
+  height: 75px;
+  border: 1px solid blue; 
+}
+/*.stretch {
+  flex-grow: 1;
+  flex-shrink: 0;
+} */
 
 /*FOOTER SECTION*/
 .footer-nav {
@@ -190,7 +230,6 @@ body {
 	color: blue;
 	padding-top: 100px;
 }
-
 .sign-off {
 	font-size: 10px;
 	text-align: center;

@@ -90,3 +90,15 @@ REMINDER FOR RAYA
 
 BACK ARROW ICON
 <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+
+
+-----
+
+SOURCE
+https://vimeo.com/213706769
+
+DO THIS 
+http://www.starr.net/is/type/htmlcodes.html
+
+do i need to do this?
+box-sizing: border-box;

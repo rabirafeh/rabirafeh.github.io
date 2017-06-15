@@ -1,22 +1,16 @@
-$(document).ready(function () {
+$(document).ready(function (){
 
-function goBack() {
-    window.history.back();
-}
+// function goBack() {
+//     window.history.back();
 
-
-// FRUIT AND VEGETABLES
-
-// 1. FRUIT
 
  
-
 function populateBoard(){
 	var currentWord = words[position];
 	var randomPosition = Math.floor((Math.random() * 6) + 1);
 	console.log(randomPosition);
 	
-	$(".food-word").html(currentWord.english);
+	$(".word").html(currentWord.english);
 	
 	$(".answer-image").addClass("wrong");
 	$('.img-1').attr('src', getRandomImage());
@@ -28,19 +22,16 @@ function populateBoard(){
 	$('.img-' + randomPosition).attr('src', currentWord.image).addClass("answer").removeClass("wrong");
 }
 
-
-
-
 $(".game1").on("click", ".answer", function(){
 	var answer = document.getElementById("../images/Pikachu/hiPikachu.png");
-	alert("you win");
+	alert("yay! you win");
 	position += 1;
 	populateBoard();
 });
 
 $(".game1").on("click", ".wrong", function(){
 	var wrong = document.getElementById("../images/Pikachu/sadPikachu.png");
-	alert("you lose");
+	alert("boo! you lose");
 	position += 1;
 });
 
@@ -60,170 +51,9 @@ numRight = 0;
 numWrong = 0;
 	 
 var position = 0;
+
+if ($('body.animals-game').length) {
 var words = [
-
-	{
-		english: 'Apple',
-		french: 'Une Pomme',
-		image: '../images/Game/fruits/apple.png'
-	}, 
-	{
-		english: 'Banana',
-		french: 'Une Banane',
-		image: '../images/Game/fruits/banana.png'
-	}, 
-	{
-		english: 'Cherries',
-		french: 'Des Cerises',
-		image: '../images/Game/fruits/cherries.png'
-	}, 
-	{
-		english: 'Coconut',
-		french: 'Noix de Coco',
-		image: '../images/Game/fruits/coconut.png'
-	}, 
-	{
-		english: 'Cantaloupe',
-		french: 'Un Cantaloup',
-		image: '../images/Game/fruits/melon.png'
-	}, 
-	{
-		english: 'Orange',
-		french: 'Un Orange',
-		image: '../images/Game/fruits/orange.png'
-	}, 
-	{
-		english: 'Pineapple',
-		french: 'Un Ananas',
-		image: '../images/Game/fruits/pineapple.png'
-	}, 
-	{
-		english: 'Pomegranate',
-		french: 'Une Grenade',
-		image: '../images/Game/fruits/pomegranate.png'
-	}, 
-	{
-		english: 'Grapes',
-		french: 'Des Raisins',
-		image: '../images/Game/fruits/raisin.png'
-	}, 
-	{
-		english: 'Strawberry',
-		french: 'Une Fraise',
-		image: '../images/Game/fruits/strawberry.png'
-	}, 
-	{
-		english: 'Watermelon Slice',
-		french: 'Une Tranche de Pastèque',
-		image: '../images/Game/fruits/watermelon.png'
-	}, 
-
-// 2. VEGETABLES
-
-	{
-		english: 'Asparagus',
-		french: 'Asperges',
-		image: '../images/Game/vegetable/asparagus.png'
-	}, 
-	{
-		english: 'Bell Pepper',
-		french: 'Un Poivron',
-		image: '../images/Game/vegetable/bell-pepper.png'
-	}, 
-	{
-		english: 'Broccoli',
-		french: 'Brocoli',
-		image: '../images/Game/vegetable/broccoli.png'
-	},
-	{
-		english: 'Carrot',
-		french: 'Carotte',
-		image: '../images/Game/vegetable/carrot.png'
-	}, 
-	{
-		english: 'Eggplant',
-		french: 'Une Aubergine',
-		image: '../images/Game/vegetable/eggplant.png'
-	},
-	{
-		english: 'Garlic',
-		french: "De L'Ail",
-		image: '../images/Game/vegetable/garlic.png'
-	}, 
-	{
-		english: 'Green Beans',
-		french: 'Des Haricots Verts',
-		image: '../images/Game/vegetable/green-beans.png'
-	}, 
-	{
-		english: 'Lemon',
-		french: 'Citron',
-		image: '../images/Game/vegetable/lemon.png'
-	}, 
-	{
-		english: 'Lettuce',
-		french: 'Salade',
-		image: '../images/Game/vegetable/lettuce.png'
-	}, 
-	{
-		english: 'Mushroom',
-		french: 'Champignon',
-		image: '../images/Game/vegetable/mushroom.png'
-	}, 
-	{
-		english: 'Onion',
-		french: 'Un Oignon',
-		image: '../images/Game/vegetable/onion.png'
-	}, 
-	{
-		english: 'Radish',
-		french: 'Un Radis',
-		image: '../images/Game/vegetable/radish.png'
-	}, 
-	{
-		english: 'Tomato',
-		french: 'Une Tomate',
-		image: '../images/Game/vegetable/tomato.png'
-	}, 
-
-// COLORS
-	{
-		english: 'A Blue Wall',
-		french: 'Un Mur Bleu',
-		image: '../images/Game/colors/bluewall.png'
-	}, 
-	{
-		english: 'A Brown Bag',
-		french: 'Un Sac Brun',
-		image: '../images/Game/colors/brownbag.png'
-	}, 
-	{
-		english: 'Green Yarn',
-		french: 'Fil Vert',
-		image: '../images/Game/colors/greenyarn.png'
-	}, 
-	{
-		english: 'Orange Flower',
-		french: "Une Fleur D'Oranger",
-		image: '../images/Game/colors/orangeglower.png'
-	}, 
-	{
-		english: 'A Pink Balloon',
-		french: 'Un Ballon Rose',
-		image: '../images/Game/colors/pinkballoon.png'
-	}, 
-	{
-		english: 'A Red Paintbrush',
-		french: 'Un Pinceau Rouge',
-		image: '../images/Game/colors/red.png'
-	}, 
-	{
-		english: 'A Yellow Star',
-		french: 'Une Etoile Jaune',
-		image: '../images/Game/colors/yellowstar.png'
-	} 
-
-// ANIMALS
 	{
 		english: 'A Bird',
 		french: 'Un Oiseau',
@@ -308,9 +138,176 @@ var words = [
 		english: 'Snake',
 		french: 'Un Serpent',
 		image: '../images/Game/animals/snake.png'
-	}, 
+	}
+]
 
-// TRAVEL
+
+} else if ($('body.colors-game').length) {
+var words = [
+	{
+		english: 'A Blue Wall',
+		french: 'Un Mur Bleu',
+		image: '../images/Game/colors/bluewall.png'
+	}, 
+	{
+		english: 'A Brown Bag',
+		french: 'Un Sac Brun',
+		image: '../images/Game/colors/brownbag.png'
+	}, 
+	{
+		english: 'Green Yarn',
+		french: 'Fil Vert',
+		image: '../images/Game/colors/greenyarn.png'
+	}, 
+	{
+		english: 'Orange Flower',
+		french: "Une Fleur D'Oranger",
+		image: '../images/Game/colors/orangeglower.png'
+	}, 
+	{
+		english: 'A Pink Balloon',
+		french: 'Un Ballon Rose',
+		image: '../images/Game/colors/pinkballoon.png'
+	}, 
+	{
+		english: 'A Red Paintbrush',
+		french: 'Un Pinceau Rouge',
+		image: '../images/Game/colors/red.png'
+	}, 
+	{
+		english: 'A Yellow Star',
+		french: 'Une Etoile Jaune',
+		image: '../images/Game/colors/yellowstar.png'
+	} 
+]
+
+
+} else if ($('body.food-game').length) {
+var words = [
+{
+		english: 'Apple',
+		french: 'Une Pomme',
+		image: '../images/Game/fruits/apple.png'
+	}, 
+	{
+		english: 'Banana',
+		french: 'Une Banane',
+		image: '../images/Game/fruits/banana.png'
+	}, 
+	{
+		english: 'Cherries',
+		french: 'Des Cerises',
+		image: '../images/Game/fruits/cherries.png'
+	}, 
+	{
+		english: 'Coconut',
+		french: 'Noix de Coco',
+		image: '../images/Game/fruits/coconut.png'
+	}, 
+	{
+		english: 'Cantaloupe',
+		french: 'Un Cantaloup',
+		image: '../images/Game/fruits/melon.png'
+	}, 
+	{
+		english: 'Orange',
+		french: 'Un Orange',
+		image: '../images/Game/fruits/orange.png'
+	}, 
+	{
+		english: 'Pineapple',
+		french: 'Un Ananas',
+		image: '../images/Game/fruits/pineapple.png'
+	}, 
+	{
+		english: 'Pomegranate',
+		french: 'Une Grenade',
+		image: '../images/Game/fruits/pomegranate.png'
+	}, 
+	{
+		english: 'Grapes',
+		french: 'Des Raisins',
+		image: '../images/Game/fruits/raisin.png'
+	}, 
+	{
+		english: 'Strawberry',
+		french: 'Une Fraise',
+		image: '../images/Game/fruits/strawberry.png'
+	}, 
+	{
+		english: 'Watermelon Slice',
+		french: 'Une Tranche de Pastèque',
+		image: '../images/Game/fruits/watermelon.png'
+	}, 
+	{
+		english: 'Asparagus',
+		french: 'Asperges',
+		image: '../images/Game/vegetable/asparagus.png'
+	}, 
+	{
+		english: 'Bell Pepper',
+		french: 'Un Poivron',
+		image: '../images/Game/vegetable/bell-pepper.png'
+	}, 
+	{
+		english: 'Broccoli',
+		french: 'Brocoli',
+		image: '../images/Game/vegetable/broccoli.png'
+	},
+	{
+		english: 'Carrot',
+		french: 'Carotte',
+		image: '../images/Game/vegetable/carrot.png'
+	}, 
+	{
+		english: 'Eggplant',
+		french: 'Une Aubergine',
+		image: '../images/Game/vegetable/eggplant.png'
+	},
+	{
+		english: 'Garlic',
+		french: "De L'Ail",
+		image: '../images/Game/vegetable/garlic.png'
+	}, 
+	{
+		english: 'Green Beans',
+		french: 'Des Haricots Verts',
+		image: '../images/Game/vegetable/green-beans.png'
+	}, 
+	{
+		english: 'Lemon',
+		french: 'Citron',
+		image: '../images/Game/vegetable/lemon.png'
+	}, 
+	{
+		english: 'Lettuce',
+		french: 'Salade',
+		image: '../images/Game/vegetable/lettuce.png'
+	}, 
+	{
+		english: 'Mushroom',
+		french: 'Champignon',
+		image: '../images/Game/vegetable/mushroom.png'
+	}, 
+	{
+		english: 'Onion',
+		french: 'Un Oignon',
+		image: '../images/Game/vegetable/onion.png'
+	}, 
+	{
+		english: 'Radish',
+		french: 'Un Radis',
+		image: '../images/Game/vegetable/radish.png'
+	}, 
+	{
+		english: 'Tomato',
+		french: 'Une Tomate',
+		image: '../images/Game/vegetable/tomato.png'
+	}
+]
+
+} else if ($('body.travel-game').length) {
+var words = [
 	{
 		english: 'The Beach',
 		french: 'La Plage',
@@ -371,7 +368,7 @@ var words = [
 		french: 'Bateau',
 		image: '../images/Game/travel/transparent/sailing.png'
 	}
-  ]
+  ]}
 
   
 populateBoard();	
