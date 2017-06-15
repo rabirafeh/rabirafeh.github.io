@@ -1,0 +1,102 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Patrick Hand SC', cursive;
+	width: 100%;
+	height: 100%;
+}
+
+/*INDEX PAGE*/
+
+.page-background {
+	background: url(../images/index/homepage/jigsawPuzzle.jpeg) no-repeat;
+	background-size: 100% 100%;
+	padding: 20px 20px;
+	height: 95%;
+	width: 95%;
+	margin-top: 10px;
+}
+
+.page-wrap {
+	background-color: white;
+	/*margin: 0 auto;*/
+	border: 2px solid black;
+	height: 90%;
+	width: 90%;
+	margin: 30px 30px;
+}
+
+.page-header {
+	overflow: hidden;
+	padding: 20px;
+}
+
+.page-header h1 {
+	color: blue;
+	font-size: 50px;
+	float: left;
+	margin: 10px 0 0 0;
+}
+
+.page-header a {
+	color: blue;
+	float: right;
+	display: block;
+}
+
+/*Homepage Icons*/
+
+#red-logo {
+	width: 60px;
+	height: 60px;
+	float: left;
+	padding-top: 15px;
+	padding-right: 10px;
+}
+
+#question-mark {
+	font-size: 50px;
+	color: blue;
+	float: right;
+	padding-top: 20px;
+}
+
+#random-mix {
+	font-size: 70px;
+	color: blue;
+}
+
+#gamepad {
+	font-size: 70px;
+	color: blue;
+}
+
+/*Section*/
+
+.path {
+	padding: 30px;
+}
+
+.footer-nav {
+	text-align: center;
+	color: blue;
+	padding-top: 70px;
+}
+
+
+/*ABOUT PAGE */
+
+/*TERMS OF USE PAGE*/ 
+
+/*PRIVACY POLICY*/ 
+
+/*PAR HASARD PAGE*/ 
+
+/*LANGUAGE PICKER*/
+
+/*GAME PICKER*/ 
+
+/*SCOREKEEPER PAGE*/
+

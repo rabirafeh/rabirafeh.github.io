@@ -1,0 +1,19 @@
+
+var ftGUID_1655869="3363F1F22FC3D7";
+var ftConfID_1655869="0";
+var ftParams_1655869="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_referrer=https%3A%2F%2Fgoogleads.g.doubleclick.net%2Fpagead%2Fads%3Fclient%3Dca-pub-2459242199048700%26format%3D552x260%26output%3Dhtml%26h%3D260%26slotname%3D3450755476%26adk%3D4079313652%26adf%3D156245086%26w%3D552%26lmt%3D1497396356%26flash%3D25.0.0%26url%3Dhttps%253A%252F%252Fvimeo.com%252F74425181%26wgl%3D1%26dt%3D1497396356124%26bpp%3D25%26bdt%3D1076%26fdt%3D29%26idt%3D33%26shv%3Dr20170607%26cbv%3Dr20170110%26saldr%3Daa%26correlator%3D4375835170639%26frm%3D20%26ga_vid%3D1535962305.1494955424%26ga_sid%3D1497396356%26ga_hid%3D1084413013%26ga_fc%3D0%26pv%3D2%26iag%3D3%26icsg%3D2%26nhd%3D1%26dssz%3D2%26mdo%3D0%26mso%3D0%26u_tz%3D-240%26u_his%3D1%26u_java%3D0%26u_h%3D900%26u_w%3D1440%26u_ah%3D877%26u_aw%3D1440%26u_cd%3D24%26u_nplug%3D5%26u_nmime%3D7%26adx%3D30%26ady%3D2040%26biw%3D957%26bih%3D773%26abxe%3D1%26eid%3D10593695%252C26835106%26oid%3D3%26ref%3Dhttps%253A%252F%252Fvimeo.com%252Fsearch%253Fq%253Dparticle%252Banimation%26rx%3D0%26eae%3D0%26fc%3D528%26brdim%3D49%252C23%252C49%252C23%252&cachebuster=36339.39428505495";
+var ftKeyword_1655869="";
+var ftCustom_1655869="";
+var ftSection_1655869="";
+var ftSegment_1655869="o20,o22babd2,o22,o2y,p0c,ge3,jrk,pif,nhs,n7h,p9m,i2q,i2qlga_pbi,ohw,qba,f5t,n19,n16,g6q,ign,igp,lbs,igk,qjm,qfe";
+var ftSegmentList_1655869=[{s:'o20',t:34481500},{m:'o22_cat',s:'o22babd2',t:33860000},{s:'o22',t:33860000},{s:'o2y',t:34072100},{s:'p0c'},{s:'ge3'},{s:'jrk'},{s:'pif'},{s:'nhs'},{s:'n7h'},{s:'p9m'},{s:'i2q'},{m:'c1777_c1778',s:'i2qlga_pbi'},{m:'c5163_lastviewed_14day',s:'ohw',t:34110000},{s:'qba'},{s:'f5t'},{s:'n19'},{s:'n16'},{s:'g6q'},{s:'ign'},{s:'igp'},{s:'lbs'},{s:'igk'},{s:'qjm'},{s:'qfe'}];
+var ftRuleMatch_1655869="0";
+var ftTimestamp_1655869="1497415250";
+var ftImp1655869 = {};
+ftImp1655869.privacy = "x";
+ftImp1655869.guidAge = "89";
+ftImp1655869.impID = "3452F1C530402C";
+
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/165/1655869/1860371/js/j-1655869-1860371.js" id="ftscript_m1655869" name="ftscript_m1655869"></scr'+'ipt>');
+                    

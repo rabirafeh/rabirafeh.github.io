@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://cdn.flashtalking.com/75749/1877032/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<style></style>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="ad.size" content="width=300,height=250">
+		<title>SlingTV 300x250 | Carousel</title>
+		<link rel="stylesheet" type="text/css" href="./css-reset.css">
+		<link rel="stylesheet" type="text/css" href="./style.css">
+
+		<script src="./TweenLite.min.js"></script>
+		<script src="./TimelineLite.min.js"></script>
+		<script src="./easepack.min.js"></script>
+		<script src="./cssplugin.min.js"></script>
+
+		<script src="./createjs-2015.11.26.min.js"></script>
+		<script src="./300x250.js"></script>
+
+		<script>
+		var canvas, stage, exportRoot;
+		function initLoad() {
+
+			canvas = document.getElementById("canvas");
+
+			if (lib.properties.manifest.length > 0){
+				images = images||{};
+				var loader = new createjs.LoadQueue(false);
+				loader.addEventListener("fileload", handleFileLoad);
+				loader.addEventListener("complete", handleComplete);
+				loader.loadManifest(lib.properties.manifest);
+			} else {
+				exportRoot = new lib._300x250();
+				initVars();
+			}
+		}
+
+		function handleFileLoad(evt) {
+			if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+		}
+
+		function handleComplete(evt) {
+			exportRoot = new lib._300x250();
+			initVars();
+		}
+
+		</script>
+
+
+	</head>
+
+	<body>
+
+		<div id="ad" style="cursor: pointer; background-image: url(&quot;about:blank&quot;);">
+
+			<canvas id="canvas" width="300" height="250" style="opacity: 1;"></canvas>
+
+			<div id="HTMLoverlay">
+
+				<div id="carouselContainer" style="opacity: 0; transform: matrix(1, 0, 0, 1, -300, 0);">
+
+					<div id="showInfoFlexBox" style="top: 70px; left: 181px; width: 109.255px; height: 99.4442px;">
+						<div id="networkLogoContainer" style="top: 165px; left: 0px; height: 31.9554px;"><div class="logoImgDiv" style="display: inline-block; opacity: 1;"><img src="./SYFYHD-1496780219.png" style="width: 63.2717px;"></div><div class="logoImgDiv" style="display: none; opacity: 0;"><img src="./CMT.png" style="width: 51.4482px;"></div><div class="logoImgDiv" style="display: none; opacity: 0;"><img src="./NBC.png" style="width: 45.3767px;"></div><div class="logoImgDiv" style="display: none; opacity: 0;"><img src="./NBC.png" style="width: 45.3767px;"></div><div class="logoImgDiv" style="display: none; opacity: 0;"><img src="./TNT.png" style="width: 45.3767px;"></div></div>
+						<div id="showTitleTxt" style="opacity: 1;">WYNONNA EARP</div>
+					</div>
+
+				<div class="imgDiv" style="position: absolute; left: 47px; top: 86px; width: 91.4439px; height: 68.4px; z-index: 1004; transform: matrix(1.667, 0, 0, 1.667, 0, 0);"><img src="./get.php" style="opacity: 1;"></div><div class="imgDiv" style="position: absolute; left: -104px; top: 87px; width: 91.2px; height: 68.4px; z-index: 1003; transform: matrix(1, 0, 0, 1, 0, 0);"><img src="./get(1).php" style="opacity: 0.2;"></div><div class="imgDiv" style="position: absolute; left: -104px; top: 87px; width: 91.4439px; height: 68.4px; z-index: 1002; transform: matrix(1, 0, 0, 1, 0, 0);"><img src="./get(2).php" style="opacity: 0.2;"></div><div class="imgDiv" style="position: absolute; left: -104px; top: 87px; width: 91.4439px; height: 68.4px; z-index: 1001; transform: matrix(1, 0, 0, 1, 0, 0);"><img src="./get(3).php" style="opacity: 0.2;"></div><div class="imgDiv" style="position: absolute; left: -104px; top: 87px; width: 91.2px; height: 68.4px; z-index: 1000; transform: matrix(1, 0, 0, 1, 0, 0);"><img src="./254513-1496154104.jpg" style="opacity: 0.2;"></div></div>
+
+				<div id="carouselTxt" class="txtHead" style="top: 23px; left: 0px; font-size: 17.9px; opacity: 0; transform: matrix(0, 0, 0, 0, 0, 0);">THIS WEEK ON SLING TV</div>
+				<div id="carouselTxtTest" class="testHead" style="font-size: 18px;"></div>
+
+				<div id="showTitleTxt"></div>
+
+				<div id="networkLogoContainer"></div>
+
+				<div id="finalImgDiv" style="top: 79px; left: 0px; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+					<img id="finalImg" src="./deviceFrame_quad.png">
+				</div>
+
+				<div id="finalTxt" class="txtHead" style="top: 11px; left: 0px; font-size: 17.9px; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">STREAM LIVE TV<br>ON YOUR BIG SCREEN</div>
+				<div id="finalTxtTest" class="testHead" style="font-size: 18px;"></div>
+
+				<div id="priceTxt" style="top: 60px; left: 1px; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">STARTING AT <span style="font-size: 8px; vertical-align: super;">$</span>20<span style="font-size: 8px;">/mo</span></div>
+
+				<div id="ctaFlexBox" style="top: 203px; left: 97px; width: 186.5px; height: 29.2px; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+					<div id="ctaTxt" style="letter-spacing: 2.1px;">WATCH 7 DAYS FREE</div>
+					<img id="caret" src="./caret.png">
+				</div>
+
+				<div id="legalTxt" style="width: 186.5px; top: 238px; left: 97px; opacity: 1;">RESTRICTIONS APPLY</div>
+
+			</div>
+
+			<div id="loading" style="opacity: 0;"></div>
+			<div id="border"></div>
+
+		</div><!-- ad -->
+
+		<!-- HTML5 API 2.10 -->
+		<script src="./html5API.js"></script>
+
+		<!-- feed -->
+		<script src="./FTFeed.min.js"></script>
+		<script src="./processFeed.js"></script>
+
+		<script src="./anim.js"></script>
+
+		<script type="text/javascript">
+			container = myFT.$("#ad");
+			myFT.applyClickTag(container, 1);
+		</script>
+
+		<!-- <script type="text/javascript">initLoad();</script> -->
+
+	
+</body></html>

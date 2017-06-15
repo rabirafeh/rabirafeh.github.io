@@ -1,0 +1,280 @@
+/* ---- 300x250 10FT AllDevices ----*/
+
+* {margin:0; padding:0; border:0; outline:0; vertical-align:baseline; background:transparent; -webkit-touch-callout:none; -webkit-user-select:none; -webkit-text-size-adjust:none; }
+
+body { background-color: #fff; }
+
+#ad {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 300px;
+	height: 250px;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-color: #000;
+
+	cursor: pointer;
+}
+
+#loading {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 250px;
+	/*z-index: 1001;*/
+	opacity: 1;
+	background-image: url("sling_loader.gif");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-color: #000;
+}
+
+#border {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 298px;
+	height: 248px;
+
+	pointer-events: none;
+	border: 1px solid #999;
+}
+
+@font-face {
+    font-family: 'BrandonBlack';
+    src: url('fonts/brandontext-black-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BrandonRegular';
+    src: url('fonts/brandontext-regular-webfont.woff') format('woff');
+}
+
+
+/*--- CLASSES ---*/
+
+.txtHead {
+	text-transform: uppercase;
+	width: 300px;
+	text-align: center;
+	font-family: 'BrandonBlack', Arial, sans-serif;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	color: #FFF;
+}
+.testHead {
+	position: absolute;
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'BrandonBlack', Arial, sans-serif;
+	letter-spacing: 1.5px;
+	color: #FFF;
+
+	opacity: 0;
+}
+
+.txtSub {
+	text-transform: uppercase;
+	width: 300px;
+	text-align: center;
+	font-family: 'BrandonRegular', Arial, sans-serif;
+	color: #FFF;
+}
+.testSub {
+	position: absolute;
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'BrandonRegular', Arial, sans-serif;
+	color: #FFF;
+
+	opacity: 0;
+}
+
+#HTMLoverlay {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 250px;
+}
+
+
+/*--- DOM elems ---*/
+
+#carouselContainer {
+	pointer-events: none;
+	/*overflow: hidden;*/
+	width: 300px;
+	height: 250px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: block;
+}
+
+.imgDiv {
+	position: relative;
+	/*text-align: center;*/
+
+	background-color: black;
+}
+
+.imgDiv img {
+	/*position: absolute;*/
+	width: 100%;
+	/*bottom: 0;*/
+	opacity: 0.2;
+}
+
+#showTitleTxt {
+/*	position: absolute;
+	display: block;
+	width: 100%;*/
+	text-align: center;
+	font-family: 'BrandonRegular', Arial, sans-serif;
+	color: white;
+	font-size: 11px;
+	letter-spacing: 1px;
+	line-height: 12px;
+
+	/*top: 180px;*/
+
+}
+
+#carouselTxt {
+	position: absolute;
+	display: block;
+}
+
+#showInfoFlexBox {
+
+	position: absolute;
+
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: justify;
+
+	align-items: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+
+	/*background-color: rgba(234,243,123,0.6);*/
+
+/*	top: 56px;
+	left: 50px;
+	width: 250px;*/
+}
+
+#networkLogoContainer {
+	/*position: absolute;*/
+	display: inline-block;
+	pointer-events: none;
+}
+
+.logoImgDiv {
+	/*position: absolute;*/
+}
+
+.logoImgDiv img {
+	width: 100%;
+}
+
+.logoTextDiv {
+	position: absolute;
+	text-align: center;
+	font-family: 'BrandonBlack', Arial, sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	margin-top: 5px;
+	color: #FFF;
+}
+
+#finalImgDiv {
+	position: absolute;
+	display: block;
+}
+
+#finalTxt {
+	position: absolute;
+	display: block;
+}
+
+#priceTxt {
+	position: absolute;
+	display: block;
+
+	font-family: 'BrandonRegular', Arial, sans-serif;
+	font-size: 13px;
+	width: 100%;
+	text-align: center;
+	line-height: 13px;
+	letter-spacing: 2px;
+	color: #FFF;
+}
+
+#ctaFlexBox {
+	position: absolute;
+
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: justify;
+
+	align-items: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+
+	background-color: #14ABE0;
+}
+
+#ctaTxt {
+	/*position: absolute;*/
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'BrandonRegular', Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 13px;
+	color: #FFF;
+}
+
+#caret {
+	width: 6px;
+	margin-left: 7px;
+}
+
+#legalTxt {
+	position: absolute;
+	display: block;
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	font-size: 8px;
+	color: #999;
+}
+
+
+/*--------- END EDITABLES ---------*/

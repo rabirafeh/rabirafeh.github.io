@@ -8,6 +8,22 @@ WELCOME PAGE
 6) how to add a tooltip for about? DONE 
 7) how to place 2 images on the same row and then figure out how to define in css
 
+Globe
+https://vimeo.com/92899330 
+Hello English
+https://vimeo.com/134601672
+Tron
+https://vimeo.com/22363688
+Particles Globe FAVE
+https://vimeo.com/74425181 
+CAN A VIDEO PLAY ON REPEAT? -- look at html5 video class work for example - Loop function
+Lighter color
+https://vimeo.com/7625191
+Blue 
+https://vimeo.com/123005986
+
+SOURCE
+<!-- <p><a href="https://vimeo.com/74425181">Particle colors | part 3</a> from <a href="https://vimeo.com/deko">DEKO.LT</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
 
 -----
 
@@ -31,9 +47,17 @@ GAME PAGE
 3) have a scoreboard table on the top left corner 
 4) do right and wrong scorekeeper
 5) need to change the 'find' word to a different language
+6) Game based on the user's selection 
 
 
 -----
+
+LUCKY
+1) this page should load all the different categories in a random order 
+will i need to create another page? 
+
+-----
+
 
 FOOTER 
 
@@ -51,6 +75,7 @@ MISC
 5) how to add a favicon?
 6) with a class that has the same name on different pages, can i call attention to one page on css? 
 7) fix reset css file under each html file 
+8) ADD A SOURCE PAGE - maybe hard to find through the 'about' page
 
 -----
 
