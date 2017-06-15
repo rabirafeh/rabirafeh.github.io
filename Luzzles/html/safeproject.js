@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
-function goBack() {
-    window.history.back();
+// function goBack() {
+//     window.history.back();
 }
 
 
@@ -16,7 +16,7 @@ function populateBoard(){
 	var randomPosition = Math.floor((Math.random() * 6) + 1);
 	console.log(randomPosition);
 	
-	$(".food-word").html(currentWord.english);
+	$(".word").html(currentWord.english);
 	
 	$(".answer-image").addClass("wrong");
 	$('.img-1').attr('src', getRandomImage());
@@ -27,8 +27,6 @@ function populateBoard(){
 	$('.img-6').attr('src', getRandomImage());
 	$('.img-' + randomPosition).attr('src', currentWord.image).addClass("answer").removeClass("wrong");
 }
-
-
 
 
 $(".game1").on("click", ".answer", function(){
@@ -61,7 +59,6 @@ numWrong = 0;
 	 
 var position = 0;
 var words = [
-
 	{
 		english: 'Apple',
 		french: 'Une Pomme',
@@ -221,7 +218,7 @@ var words = [
 		english: 'A Yellow Star',
 		french: 'Une Etoile Jaune',
 		image: '../images/Game/colors/yellowstar.png'
-	} 
+	}, 
 
 // ANIMALS
 	{
