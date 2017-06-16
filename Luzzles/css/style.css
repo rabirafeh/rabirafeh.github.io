@@ -183,6 +183,25 @@ body {
 	width: 40%;
 	padding-left: 40px;
 }
+.align-title-score {
+	overflow: hidden;
+	display: block;
+}
+.align-title-score h2 {
+	float: left;
+}
+.align-title-score p{ 
+	float: right;
+	padding-right: 10px;
+}
+.scorebox {
+  width: 75px; 
+  height: 40px;
+  border: 2px dotted red;
+  display: flex;
+  justify-content: space-around;
+  float: right;
+}
 
 /*SCOREKEEPER PAGE*/
 .score-title {

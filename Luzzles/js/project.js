@@ -314,7 +314,7 @@ var words = [
 		image: '../images/Game/travel/transparent/beach.png'
 	}, 
 	{
-		english: 'Beach Day',
+		english: 'Spending the day at beach',
 		french: 'Une Journee a la Plage',
 		image: '../images/Game/travel/transparent/beachday.png'
 	}, 

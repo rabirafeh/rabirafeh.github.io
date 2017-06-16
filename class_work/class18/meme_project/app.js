@@ -14,7 +14,7 @@ $('.meme-form').submit(function(event){
 		data.data.forEach(function(meme){
 
 			var video = meme.images.looping.mp4;
-			$('.gif-list').append("<li><video src='" + video + "' type='video/mp4' autoplay></video></li>")
+			$('.gif-list').append("<li><video src='" + video + "' type='video/mp4' autoplay looping></video></li>")
 			})
 	});
 })
