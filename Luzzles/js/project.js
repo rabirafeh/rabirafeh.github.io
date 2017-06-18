@@ -24,7 +24,7 @@ function populateBoard(){
 
 $(".game1").on("click", ".answer", function(){
 	var answer = document.getElementById("../images/Pikachu/hiPikachu.png");
-	alert("yay! you win");
+	alert(answer);
 	position += 1;
 	populateBoard();
 });

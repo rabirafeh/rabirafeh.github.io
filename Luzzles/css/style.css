@@ -60,17 +60,36 @@ body {
 	padding-right: 10px;
 }
 #random-mix {
-	font-size: 70px;
+	font-size: 80px;
 	color: blue;
 }
 #gamepad {
-	font-size: 70px;
+	font-size: 80px;
 	color: blue;
 }
-.dancing-pikachu {
+.carousel-pikachu {
+	text-align: center;
+}
+.carousel-pikachu img {
+	float: center;
+}
+.carousel-pikachu p {
+	margin-left: 460px;
+}
+.hi-pikachu {
+	color: red;
+	font-size: 20px;
 	text-align: center;
 }
 #dancingPikachu {
+	width: 200px;
+	height: 200px;
+}
+#flying-pikachu {
+	width: 200px;
+	height: 200px;
+}
+#red-hat-pikachu {
 	width: 200px;
 	height: 200px;
 }
@@ -78,8 +97,13 @@ body {
 /*Section*/
 
 .path {
-	padding: 30px;
+	padding: 10px;
 	overflow: block;
+	color: blue;
+	font-size: 30px;
+}
+.path a:visited {
+	color: inherit;
 }
 .path1 {
 	float: left;
@@ -111,7 +135,12 @@ body {
 	margin: 0 auto;
 }
 
-/*PAR HASARD PAGE*/ 
+/*PAR HASARD PAGE*/
+#play-r-game {
+	font-size: 30px;
+	color: blue;
+	float: center;
+}
 
 /*LANGUAGE PICKER*/
 .countries-group {
@@ -119,6 +148,7 @@ body {
 	width: 279px;
 	padding: 20px;
 	text-align: center;
+	color: blue;
 }
 .countries img[alt*="french"] {
 	height: 100px;
