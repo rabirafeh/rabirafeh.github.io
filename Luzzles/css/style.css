@@ -67,10 +67,12 @@ body {
 	font-size: 70px;
 	color: blue;
 }
+.dancing-pikachu {
+	text-align: center;
+}
 #dancingPikachu {
-	width: 60px;
-	height: 60px;
-	float: center;
+	width: 200px;
+	height: 200px;
 }
 
 /*Section*/
@@ -88,6 +90,9 @@ body {
 
 
 /*ABOUT PAGE */
+.sources {
+
+}
 
 /*TERMS OF USE PAGE*/ 
 .terms-video video{
@@ -249,8 +254,18 @@ body {
 	color: blue;
 	padding-top: 100px;
 }
+.footer-nav a:visited {
+	color: inherit;
+}
+
 .sign-off {
 	font-size: 10px;
 	text-align: center;
+}
+.go-back i {
+	float: right;
+	font-size: 30px;
+	color: blue;
+	text-decoration-line: none;
 }
 
