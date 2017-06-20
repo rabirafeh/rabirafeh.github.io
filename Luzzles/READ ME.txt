@@ -61,7 +61,7 @@ will i need to create another page?
 
 FOOTER 
 
-1) is there a way to have a general footer for each page or do i have to define the nav for each one? 
+1) is there a way to have a general footer for each page or do i have to define the nav for each one? DONE
 
 -----
 

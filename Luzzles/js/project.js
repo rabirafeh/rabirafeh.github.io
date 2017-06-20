@@ -3,14 +3,49 @@ $(document).ready(function (){
 // function goBack() {
 //     window.history.back();
 
+	var language;
+	var category;
 
- 
+$("#arabic").click(function(event){
+	event.preventDefault();
+	localStorage.setItem('language', 'arabic');
+});
+$("#english").click(function(event){
+	event.preventDefault();
+	localStorage.setItem('language', 'english');
+});
+$("#french").click(function(event){
+	event.preventDefault();
+	localStorage.setItem('language', 'french');
+});
+
+$("#animalsgame").click(function(event){
+	event.preventDefault();
+	localStorage.getItem('category', 'animalsgame');
+});
+$("#colorsgame").click(function(event){
+	event.preventDefault();
+	localStorage.getItem('category', 'colorsgame');
+});
+$("#foodgame").click(function(event){
+	event.preventDefault();
+	localStorage.getItem('category', 'foodgame');
+});
+$("#travelgame").click(function(event){
+	event.preventDefault();
+	localStorage.getItem('category', 'travelgame');
+});
+
 function populateBoard(){
 	var currentWord = words[position];
 	var randomPosition = Math.floor((Math.random() * 6) + 1);
-	console.log(randomPosition);
+	// console.log(randomPosition);
+
+	language = localStorage.getItem('language');
+
+	console.log(language);
 	
-	$(".word").html(currentWord.english);
+	$(".word").html(currentWord[language]);
 	
 	$(".answer-image").addClass("wrong");
 	$('.img-1').attr('src', getRandomImage());
@@ -24,7 +59,7 @@ function populateBoard(){
 
 $(".game1").on("click", ".answer", function(){
 	var answer = document.getElementById("../images/Pikachu/hiPikachu.png");
-	alert(answer);
+	alert("yay! you win!");
 	position += 1;
 	populateBoard();
 });
@@ -33,6 +68,7 @@ $(".game1").on("click", ".wrong", function(){
 	var wrong = document.getElementById("../images/Pikachu/sadPikachu.png");
 	alert("boo! you lose");
 	position += 1;
+	populateBoard();
 });
 
 
@@ -45,7 +81,7 @@ function getRandomImage() {
 
 }
 
-console.log(getRandomImage());
+
 
 numRight = 0;
 numWrong = 0;
@@ -63,6 +99,7 @@ var words = [
 	{
 		english: 'Bull',
 		french: 'Taureau',
+		arabic: "thur",
 		image: '../images/Game/animals/bull.png'
 	}, 
 	{
@@ -116,6 +153,7 @@ var words = [
 	{
 		english: 'Mouse',
 		french: 'Une Souris',
+		arabic: "fara",
 		image: '../images/Game/animals/mouse.png'
 	}, 
 	{
@@ -192,6 +230,7 @@ var words = [
 	{
 		english: 'A Red Paintbrush',
 		french: 'Un Pinceau Rouge',
+		arabic: "farashat 'ahmar",
 		image: '../images/Game/colors/red.png'
 	}, 
 	{
@@ -232,6 +271,7 @@ var words = [
 	{
 		english: 'Cantaloupe',
 		french: 'Un Cantaloup',
+		arabic: 'shaman',
 		image: '../images/Game/fruits/melon.png'
 	}, 
 	{
@@ -309,6 +349,7 @@ var words = [
 	{
 		english: 'Green Beans',
 		french: 'Des Haricots Verts',
+		arabic: "loubi",
 		image: '../images/Game/vegetable/green-beans.png'
 	}, 
 	{
@@ -378,6 +419,7 @@ var words = [
 	{
 		english: 'A Backpacker',
 		french: 'Un Randonneur',
+		arabic: "alrahal",
 		image: '../images/Game/travel/transparent/hiker.png'
 	},  
 	{
@@ -419,12 +461,18 @@ var words = [
 	{
 		english: 'Boat',
 		french: 'Bateau',
+		arabic: "quarib",
 		image: '../images/Game/travel/transparent/sailing.png'
 	}
   ]}
 
   
-populateBoard();	
+  if (words) {
+  	populateBoard();
+  }
+// populateBoard();
+
+// console.log(getRandomImage());	
 
 
 });
@@ -440,6 +488,6 @@ function carousel() {
     }
     slideIndex++;
     if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
+    x[slideIndex-1].style.display = 'block'; 
     setTimeout(carousel, 2000); // Change image every 2 seconds
 }

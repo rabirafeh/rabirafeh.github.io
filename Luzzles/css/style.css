@@ -9,6 +9,11 @@ body {
 /*	overflow: hidden;
 */}
 
+/*ALL*/
+.section-padding {
+	padding: 20px;
+}
+
 /*INDEX PAGE*/
 
 .page-background {
@@ -130,7 +135,6 @@ body {
 	width: 80%;
 	position: center;
 	padding-left: 110px; 
-	padding-top: 20px;
 }
 
 /*PRIVACY POLICY*/ 
