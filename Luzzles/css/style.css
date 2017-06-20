@@ -77,6 +77,11 @@ body {
 .carousel-pikachu p {
 	margin-left: 460px;
 }
+.intro-pikachu {
+	color: red;
+	font-size: 20px;
+	text-align: center;
+}
 .hi-pikachu {
 	color: red;
 	font-size: 20px;
@@ -95,8 +100,7 @@ body {
 	height: 200px;
 }
 
-/*Section*/
-
+/*Main Page Section*/
 .path {
 	padding: 10px;
 	overflow: block;
@@ -108,9 +112,11 @@ body {
 }
 .path1 {
 	float: left;
+	padding-left: 130px;
 }
 .path2 {
 	float: right;
+	padding-right: 130px;
 }
 
 
@@ -121,17 +127,30 @@ body {
 
 /*TERMS OF USE PAGE*/ 
 .terms-video video{
-	width: 75%;
+	width: 80%;
 	position: center;
-	padding-left: 130px; 
-	padding-top: 30px;
+	padding-left: 110px; 
+	padding-top: 20px;
 }
 
 /*PRIVACY POLICY*/ 
+.privacy {
+	margin: 10px;
+}
+.privacy h3 {
+	margin: 20px;
+	color: red;
+	font-size: 40px
+}
+.privacy p {
+	text-align: center;
+	font-size: 28px;
+	color: green;
+}
 .privacy img[alt*="pikachu-gif"] {
 	overflow: hidden;
 	width: 200px;
-	padding: 20px;
+	padding-left: 450px;
 	height: 200px;
 	margin: 0 auto;
 }
@@ -144,6 +163,11 @@ body {
 }
 
 /*LANGUAGE PICKER*/
+.countries h2 {
+	color: red;
+	font-size: 40px
+	padding-left: 50px;
+}
 .countries-group {
 	float: left;
 	width: 279px;
@@ -151,38 +175,53 @@ body {
 	text-align: center;
 	color: blue;
 }
-.countries img[alt*="french"] {
+.countries-group p {
+	text-align: center;
+	color: blue;
+}
+.countries-group img[alt*="french"] {
 	height: 100px;
 	width: 80px;
 	float: left;
 	margin-left: 30px;
 	padding-top: 25px;
 }
-
-.countries img[alt*="english"] {
+.countries-group img[alt*="english"] {
 	height: 100px;
 	width: 80px;
 	float: center;
 	margin-left: 60px;
 	padding-top: 25px;
 }
-
-.countries img[alt*="arabic"] {
+.countries-group img[alt*="arabic"] {
 	height: 100px;
 	width: 80px;
 	float: right;
 	margin-right: 30px;
 	padding-top: 25px;
 }
+/*.pikachu-go img{
+	-moz-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+	/*transform: rotate();*/
+}*/
 
 /*GAME PICKER*/ 
 .games {
 	overflow: hidden;
 }
+.games h2 {
+	color: red;
+	font-size: 40px
+}
 .games-group {
 /*	float: left;*/
-	padding: 40px;
+	padding-left: 400px;
 	text-align: center;
+	color: blue;
+	font-size: 30px;
 }
 .games-group img[alt*="animals"] {
 	height: 100px;

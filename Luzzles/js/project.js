@@ -57,6 +57,7 @@ var words = [
 	{
 		english: 'A Bird',
 		french: 'Un Oiseau',
+		arabic: "a'ssfour",
 		image: '../images/Game/animals/bird.png'
 	}, 
 	{
@@ -67,41 +68,49 @@ var words = [
 	{
 		english: 'Cat',
 		french: 'Chat',
+		arabic: "bassyneh",
 		image: '../images/Game/animals/cat.png'
 	}, 
 	{
 		english: 'Cow',
 		french: 'Une Vache',
+		arabic: "baqara",
 		image: '../images/Game/animals/cow.png'
 	}, 
 	{
 		english: 'Dog',
 		french: 'Un Chien',
+		arabic: "kalb",
 		image: '../images/Game/animals/dog.png'
 	}, 
 	{
 		english: 'Elephant',
 		french: 'Eléphant',
+		arabic: "feel",
 		image: '../images/Game/animals/elephant.png'
 	}, 
 	{
 		english: 'A Fish',
 		french: 'Un Poisson',
+		arabic: "samaak",
 		image: '../images/Game/animals/fish.png'
 	}, 
 	{
 		english: 'Frog',
 		french: 'Une Grenouille',
+		arabic: "doufdaa'",
 		image: '../images/Game/animals/frog.png'
 	}, 
 	{
 		english: 'Giraffe',
 		french: 'Girafe',
+		arabic: "zarafa",
 		image: '../images/Game/animals/giraffe.png'
 	}, 
 	{
 		english: 'Monkey',
 		french: 'Singe',
+		arabic: "qerd",
 		image: '../images/Game/animals/monkey.png'
 	}, 
 	{
@@ -112,31 +121,37 @@ var words = [
 	{
 		english: 'A Panda',
 		french: 'Panda',
+		arabic: "banda",
 		image: '../images/Game/animals/panda.png'
 	}, 
 	{
 		english: 'Penguin',
 		french: 'Un Manchot',
+		arabic: "batreek",
 		image: '../images/Game/animals/penguin.png'
 	}, 
 	{
 		english: 'Pig',
 		french: 'Un Cochon',
+		arabic: "khanzeer",
 		image: '../images/Game/animals/pig.png'
 	}, 
 	{
 		english: 'A Rabbit',
 		french: 'Un Lapin',
+		arabic: "arnab",
 		image: '../images/Game/animals/rabbit.png'
 	}, 
 	{
 		english: 'A Rubber Duck',
 		french: 'Un Canard en Caoutchouc',
+		arabic: "batta matatiya",
 		image: '../images/Game/animals/rubber-duck.png'
 	}, 
 	{
 		english: 'Snake',
 		french: 'Un Serpent',
+		arabic: "soo'ban",
 		image: '../images/Game/animals/snake.png'
 	}
 ]
@@ -147,26 +162,31 @@ var words = [
 	{
 		english: 'A Blue Wall',
 		french: 'Un Mur Bleu',
+		arabic: "ha'et azrak",
 		image: '../images/Game/colors/bluewall.png'
 	}, 
 	{
 		english: 'A Brown Bag',
 		french: 'Un Sac Brun',
+		arabic: "keess boni",
 		image: '../images/Game/colors/brownbag.png'
 	}, 
 	{
 		english: 'Green Yarn',
 		french: 'Fil Vert',
+		arabic: "khayt akhdar",
 		image: '../images/Game/colors/greenyarn.png'
 	}, 
 	{
 		english: 'Orange Flower',
 		french: "Une Fleur D'Oranger",
+		arabic: "zahra boortooka",
 		image: '../images/Game/colors/orangeglower.png'
 	}, 
 	{
 		english: 'A Pink Balloon',
 		french: 'Un Ballon Rose',
+		arabic: "baloon zahr",
 		image: '../images/Game/colors/pinkballoon.png'
 	}, 
 	{
@@ -177,6 +197,7 @@ var words = [
 	{
 		english: 'A Yellow Star',
 		french: 'Une Etoile Jaune',
+		arabic: "najma safraa'",
 		image: '../images/Game/colors/yellowstar.png'
 	} 
 ]
@@ -187,21 +208,25 @@ var words = [
 {
 		english: 'Apple',
 		french: 'Une Pomme',
+		arabic: "toofaha",
 		image: '../images/Game/fruits/apple.png'
 	}, 
 	{
 		english: 'Banana',
 		french: 'Une Banane',
+		arabic: "mawza",
 		image: '../images/Game/fruits/banana.png'
 	}, 
 	{
 		english: 'Cherries',
 		french: 'Des Cerises',
+		arabic: "karaz",
 		image: '../images/Game/fruits/cherries.png'
 	}, 
 	{
 		english: 'Coconut',
 		french: 'Noix de Coco',
+		arabic: "jawz al hind",
 		image: '../images/Game/fruits/coconut.png'
 	}, 
 	{
@@ -212,61 +237,73 @@ var words = [
 	{
 		english: 'Orange',
 		french: 'Un Orange',
+		arabic: "boortookal",
 		image: '../images/Game/fruits/orange.png'
 	}, 
 	{
 		english: 'Pineapple',
 		french: 'Un Ananas',
+		arabic: "ananass",
 		image: '../images/Game/fruits/pineapple.png'
 	}, 
 	{
 		english: 'Pomegranate',
 		french: 'Une Grenade',
+		arabic: "rooman",
 		image: '../images/Game/fruits/pomegranate.png'
 	}, 
 	{
 		english: 'Grapes',
 		french: 'Des Raisins',
+		arabic: "enaab",
 		image: '../images/Game/fruits/raisin.png'
 	}, 
 	{
 		english: 'Strawberry',
 		french: 'Une Fraise',
+		arabic: "farawla",
 		image: '../images/Game/fruits/strawberry.png'
 	}, 
 	{
 		english: 'Watermelon Slice',
 		french: 'Une Tranche de Pastèque',
+		arabic: "farawla",
 		image: '../images/Game/fruits/watermelon.png'
 	}, 
 	{
 		english: 'Asparagus',
 		french: 'Asperges',
+		arabic: "haliyoon",
 		image: '../images/Game/vegetable/asparagus.png'
 	}, 
 	{
 		english: 'Bell Pepper',
 		french: 'Un Poivron',
+		arabic: "felfel",
 		image: '../images/Game/vegetable/bell-pepper.png'
 	}, 
 	{
 		english: 'Broccoli',
 		french: 'Brocoli',
+		arabic: "brocoli",
 		image: '../images/Game/vegetable/broccoli.png'
 	},
 	{
 		english: 'Carrot',
 		french: 'Carotte',
+		arabic: "jazar",
 		image: '../images/Game/vegetable/carrot.png'
 	}, 
 	{
 		english: 'Eggplant',
 		french: 'Une Aubergine',
+		arabic: "batizen",
 		image: '../images/Game/vegetable/eggplant.png'
 	},
 	{
 		english: 'Garlic',
 		french: "De L'Ail",
+		arabic: "toum",
 		image: '../images/Game/vegetable/garlic.png'
 	}, 
 	{
@@ -277,31 +314,37 @@ var words = [
 	{
 		english: 'Lemon',
 		french: 'Citron',
+		arabic: "hamood",
 		image: '../images/Game/vegetable/lemon.png'
 	}, 
 	{
 		english: 'Lettuce',
 		french: 'Salade',
+		arabic: "khass",
 		image: '../images/Game/vegetable/lettuce.png'
 	}, 
 	{
 		english: 'Mushroom',
 		french: 'Champignon',
+		arabic: "fetr",
 		image: '../images/Game/vegetable/mushroom.png'
 	}, 
 	{
 		english: 'Onion',
 		french: 'Un Oignon',
+		arabic: "bassal",
 		image: '../images/Game/vegetable/onion.png'
 	}, 
 	{
 		english: 'Radish',
 		french: 'Un Radis',
+		arabic: "fejel",
 		image: '../images/Game/vegetable/radish.png'
 	}, 
 	{
 		english: 'Tomato',
 		french: 'Une Tomate',
+		arabic: "banadoura",
 		image: '../images/Game/vegetable/tomato.png'
 	}
 ]
@@ -311,21 +354,25 @@ var words = [
 	{
 		english: 'The Beach',
 		french: 'La Plage',
+		arabic: "al bahr",
 		image: '../images/Game/travel/transparent/beach.png'
 	}, 
 	{
 		english: 'Spending the day at beach',
 		french: 'Une Journee a la Plage',
+		arabic: "al zahab ila al bahar",
 		image: '../images/Game/travel/transparent/beachday.png'
 	}, 
 	{
 		english: 'Biking',
 		french: 'Faire du Bicyclette',
+		arabic: "daraja",
 		image: '../images/Game/travel/transparent/bike.png'
 	},  
 	{
 		english: 'Camera',
 		french: 'Appareil de Photographie',
+		arabic: "alat tassweer",
 		image: '../images/Game/travel/transparent/camera.png'
 	},
 	{
@@ -336,31 +383,37 @@ var words = [
 	{
 		english: 'Luggage',
 		french: 'Valise',
+		arabic: "amtiaa'",
 		image: '../images/Game/travel/transparent/luggage.png'
 	}, 
 	{
 		english: 'A Map',
 		french: 'Une Carte de Voyage',
+		arabic: "khareeta",
 		image: '../images/Game/travel/transparent/map.png'
 	}, 
 	{
 		english: 'Money',
 		french: "De L'Argent",
+		arabic: "massari",
 		image: '../images/Game/travel/transparent/money.png'
 	}, 
 	{
 		english: 'Palm tree',
 		french: 'Un Palmier',
+		arabic: "chajarat nakheel",
 		image: '../images/Game/travel/transparent/palmtree.png'
 	}, 
 	{
 		english: 'Passport',
 		french: 'Passeport',
+		arabic: "passport",
 		image: '../images/Game/travel/transparent/passport.png'
 	}, 
 	{
 		english: 'Airplane',
 		french: 'Un Avion',
+		arabic: "ta'ira",
 		image: '../images/Game/travel/transparent/plane.png'
 	},
 	{
