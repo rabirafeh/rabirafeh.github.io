@@ -1,0 +1,23 @@
+click function on each language
+
+inside of that click function 
+	prevent default so it doesnt go to next page right away
+
+	save a value in local storage for the language so...
+
+	localStorage.setItem('language', 'arabic');
+
+	go to url that the link points to
+
+
+
+do the same thing on the category page except setting a local storage variable for 'category'	
+
+
+whenever you go to the game page, you will want to get the value of the local storage things 
+
+
+var language = localStorage.getItem('language');
+
+var category = localStorage.getItem('category');
+

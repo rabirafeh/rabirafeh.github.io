@@ -13,6 +13,19 @@ body {
 .section-padding {
 	padding: 20px;
 }
+.section-padding h2 {
+	color: red;
+	font-size: 30px
+}
+.section-padding h3 {
+	color: red;
+	font-size: 30px
+}
+.section-padding h4 {
+	color: red;
+	font-size: 40px
+	margin-top: -30px;
+}
 
 /*INDEX PAGE*/
 
@@ -84,8 +97,9 @@ body {
 }
 .intro-pikachu {
 	color: red;
-	font-size: 20px;
+	font-size: 30px;
 	text-align: center;
+	margin-top: -30px;
 }
 .hi-pikachu {
 	color: red;
@@ -111,41 +125,60 @@ body {
 	overflow: block;
 	color: blue;
 	font-size: 30px;
+	margin-top: -40px;
 }
 .path a:visited {
 	color: inherit;
 }
 .path1 {
 	float: left;
-	padding-left: 130px;
+	padding-left: 190px;
 }
 .path2 {
 	float: right;
-	padding-right: 130px;
+	padding-right: 160px;
 }
 
 
 /*ABOUT PAGE */
-.sources {
+.about-luzzles {
+	margin-top: -20px;
 
+}
+.sources p {
+	font-size: 15px;
+}
+.sources li{
+	font-size: 12px;
+}
+.byePikachu img[alt*="byePikachu2-gif"] {
+	overflow: hidden;
+	width: 150px;
+	/*padding-left: 450px;*/
+	height: 150px;
+	margin: 0 auto;
+	float: right;
+	margin-top: -70px;
+	margin-right: 10px;
 }
 
 /*TERMS OF USE PAGE*/ 
 .terms-video video{
 	width: 80%;
 	position: center;
-	padding-left: 110px; 
+	padding-left: 110px;
+	margin-top: -10px; 
 }
 
 /*PRIVACY POLICY*/ 
 .privacy {
-	margin: 10px;
+	margin-top: -30px;
 }
-.privacy h3 {
+/*.privacy h3 {
 	margin: 20px;
 	color: red;
 	font-size: 40px
-}
+}*/
 .privacy p {
 	text-align: center;
 	font-size: 28px;
@@ -167,100 +200,110 @@ body {
 }
 
 /*LANGUAGE PICKER*/
-.countries h2 {
+/*.countries h2 {
 	color: red;
 	font-size: 40px
-	padding-left: 50px;
+}*/
+.countries-sub {
+	padding-left: 95px; 
 }
 .countries-group {
 	float: left;
 	width: 279px;
-	padding: 20px;
 	text-align: center;
 	color: blue;
 }
 .countries-group p {
 	text-align: center;
 	color: blue;
+	font-size: 30px;
+}
+.countries-group a:visited {
+	color: inherit;
 }
 .countries-group img[alt*="french"] {
-	height: 100px;
-	width: 80px;
+	height: 106px;
+    width: 86px;
 	float: left;
-	margin-left: 30px;
+/*	margin-left: 30px;*/
 	padding-top: 25px;
+	padding-left: 96px;
 }
 .countries-group img[alt*="english"] {
-	height: 100px;
-	width: 80px;
+	height: 106px;
+    width: 86px;
 	float: center;
-	margin-left: 60px;
+/*	margin-left: 60px;*/
 	padding-top: 25px;
 }
 .countries-group img[alt*="arabic"] {
 	height: 100px;
 	width: 80px;
 	float: right;
-	margin-right: 30px;
+/*	margin-right: 30px;*/
 	padding-top: 25px;
+	padding-right: 100px;
 }
-/*.pikachu-go img{
-	-moz-transform: scale(-1, -1);
-    -o-transform: scale(-1, -1);
-    -webkit-transform: scale(-1, -1);
-    transform: scale(-1, -1);
-	/*transform: rotate();*/
-}*/
+.pikachu-go img {
+	height: 270px;
+    width: 180px;
+}
 
 /*GAME PICKER*/ 
 .games {
 	overflow: hidden;
 }
-.games h2 {
+/*.games h2 {
 	color: red;
 	font-size: 40px
-}
+}*/
 .games-group {
 /*	float: left;*/
-	padding-left: 400px;
+	padding-left: 200px;
 	text-align: center;
 	color: blue;
 	font-size: 30px;
 }
+.games-group a:visited {
+	color: inherit;
+}
 .games-group img[alt*="animals"] {
-	height: 100px;
-	width: 140px;
+	height: 120px;
+	width: 160px;
 	float: left;
 	margin-left: 30px;
 	padding-top: 25px;
 }
 .games-group img[alt*="colors"] {
-	height: 100px;
-	width: 100px;
+	height: 120px;
+	width: 120px;
 	float: center;
 	margin-left: 60px;
 	padding-top: 25px;
 }
 .games-group img[alt*="food"] {
 	height: 100px;
-	width: 150px;
+	width: 190px;
 	float: right;
 	margin-right: 30px;
 	padding-top: 25px;
 }
 .games-group img[alt*="travel"] {
-	height: 100px;
-	width: 130px;
+	height: 120px;
+	width: 150px;
 	float: right;
 	margin-right: 30px;
 	padding-top: 25px;
+}
+.table-spacing {
+	padding-right: 300px;
 }
 
 /*GAME PAGES*/
 .game1 img {
 	height: 50%;
 	width: 40%;
-	padding-left: 40px;
+	padding-left: 90px;
 }
 .align-title-score {
 	overflow: hidden;
@@ -274,13 +317,46 @@ body {
 	padding-right: 10px;
 }
 .scorebox {
-  width: 75px; 
-  height: 40px;
-  border: 2px dotted red;
-  display: flex;
-  justify-content: space-around;
-  float: right;
+	width: 75px; 
+	height: 40px;
+	border: 2px dotted red;
+	display: flex;
+	justify-content: space-around;
+	float: right;
 }
+.category-game {
+	color: green;
+	font-size: 20px;
+	margin-top: -20px; 
+}
+.find {
+	font-style: bold;
+	text-align: center;
+	font-size: 30px;
+	margin-top: -20px;
+	text-decoration: underline;
+}
+.picture-container {
+    overflow:hidden;
+    height: 60px;
+}
+.picture-answer {
+    position: relative;
+    top: -1;
+    background-color: lightblue;
+    z-index: 1;
+}
+#hiPikachu {
+	height: 300px;
+    width: 230px;
+    margin-top: -9000px;
+}
+#sadPikacu {
+	height: 300px;
+    width: 230px;
+    margin-top: -9000px;
+}
+
 
 /*SCOREKEEPER PAGE*/
 .score-title {
@@ -337,8 +413,9 @@ body {
 }
 
 .sign-off {
-	font-size: 10px;
-	text-align: center;
+	font-size: 15px;
+/*	text-align: center;
+*/	color: blue;
 }
 .go-back i {
 	float: right;
@@ -346,4 +423,9 @@ body {
 	color: blue;
 	text-decoration-line: none;
 }
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 768px) {
+
+} 
 
