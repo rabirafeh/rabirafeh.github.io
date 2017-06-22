@@ -166,10 +166,10 @@ body {
 
 /*TERMS OF USE PAGE*/ 
 .terms-video video{
-	width: 80%;
+	width: 75%;
 	position: center;
 	padding-left: 110px;
-	margin-top: -10px; 
+	margin-top: 20px; 
 }
 
 /*PRIVACY POLICY*/ 
