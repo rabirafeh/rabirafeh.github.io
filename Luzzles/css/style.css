@@ -11,7 +11,7 @@ body {
 
 /*ALL*/
 .section-padding {
-	padding: 20px;
+	padding-left: 32px;
 }
 .section-padding h2 {
 	color: red;
