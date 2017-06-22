@@ -326,6 +326,9 @@ body {
 	float: right;
 	padding-right: 10px;
 }
+.align-title-score a:visited {
+	color: inherit;
+}
 .scorebox {
 	width: 75px; 
 	height: 40px;
