@@ -65,14 +65,14 @@ $(document).ready(function() {
 
   $(".game1").on("click", ".answer", function() {
     var answer = document.getElementById("../images/Pikachu/hiPikachu.png");
-    alert("yay! you win!");
+    alert("YAY! YOU WIN!");
     position += 1;
     populateBoard();
   });
 
   $(".game1").on("click", ".wrong", function() {
     var wrong = document.getElementById("../images/Pikachu/sadPikachu.png");
-    alert("boo! you lose");
+    alert("BOO! YOU LOSE!");
     position += 1;
     populateBoard();
   });
